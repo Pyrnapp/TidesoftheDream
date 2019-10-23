@@ -22,11 +22,11 @@ updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/Pyrnapp/TidesoftheDream" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="TidesoftheDream.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Inspired by Yume Nikki" #optional
 # A text field displayed in the mod UI
-authors="Love, Cheese and small house plants" #optional
+authors="Design by Cosmicparticl, Code by Pyrnapp" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 This is a long form description of the mod. You can write whatever you want here
