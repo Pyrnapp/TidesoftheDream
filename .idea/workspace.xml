@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6818e2b4-0262-4d67-be61-1a178f24aed3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/blocks/Blazewood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/blocks/ModBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/Iproxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ServerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/blockstates/blazewood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/models/block/blazewood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/models/item/blazewood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/textures/block/blazewood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/TidesoftheDream/InitialTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/TidesoftheDream/InitialTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/examplemod/ExampleMod$RegistryEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/examplemod/ExampleMod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/forge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/TidesoftheDream/InitialTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/InitialTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,8 +87,21 @@
   </component>
   <component name="ProjectId" id="1SXTwdv0AgX5V5y5bUACHhwRFzg" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/textures/block" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\tidesofthedream\textures\block" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\tidesofthedream\textures\" />
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\blazewood\tidesofthedream\models\" />
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\blazewood\tidesofthedream\" />
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\blazewood\tidesofthedream" />
+      <recent name="F:\Documents\ModDevelopment\TidesoftheDream\TidesoftheDream\src\main\resources\assets\" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
