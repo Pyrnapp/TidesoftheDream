@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "tidesofthedream",
+    "name": "TidesoftheDream",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "description": "A mysterious dream of a higher plane… uncover its secrets!",
+    "credits": "Inspired by Yume Nikki",
+    "logoFile": "assets/tidesofthedream/logo.png",
+    "url": "https://github.com/Pyrnapp/TidesoftheDream",
+    "updateUrl": "",
+    "authorList": [ "Pyrnapp", "Cosmicparticl" ],
+    "parent":"",
+    "screenshots": [],
+    "dependencies": [
+      "mod_MinecraftForge"
+    ]
+  }
+]

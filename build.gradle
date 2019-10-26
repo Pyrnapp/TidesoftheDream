@@ -10,12 +10,12 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
-apply plugin: 'eclipse'
+//apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
-group = 'com.pyrnapp.TidesoftheDream' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'TidesoftheDream'
+version = '1.14.4-1.0.0'
+group = 'com.pyrnapp.tidesofthedream' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'tidesofthedream'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -43,7 +43,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                tidesofthedream {
                     source sourceSets.main
                 }
             }
@@ -59,7 +59,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                tidesofthedream {
                     source sourceSets.main
                 }
             }
@@ -77,7 +77,7 @@ minecraft {
             args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
 
             mods {
-                examplemod {
+                tidesofthedream {
                     source sourceSets.main
                 }
             }
@@ -90,6 +90,10 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.14.4-28.1.0'
+
+
+    ////Dependency: Patchoili - for guidebook
+    //compile "vazkii.patchouli:Patchouli:[1.0-20]"
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
@@ -142,8 +146,11 @@ publishing {
         }
     }
     repositories {
+        //Came with example, idk.
         maven {
             url "file:///${project.projectDir}/mcmodsrepo"
         }
+        ////Patchouli - Advanced Books Mod, required for guidebook.
+        //maven { url 'https://maven.blamejared.com' }
     }
 }
