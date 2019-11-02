@@ -3,6 +3,7 @@ package com.pyrnapp.tidesofthedream;
 //Imports
 import com.pyrnapp.tidesofthedream.common.blocks.Blazewood;
 import com.pyrnapp.tidesofthedream.common.blocks.ModBlocks;
+import com.pyrnapp.tidesofthedream.common.items.DreamFlute;
 import com.pyrnapp.tidesofthedream.setup.ClientProxy;
 import com.pyrnapp.tidesofthedream.setup.Iproxy;
 import com.pyrnapp.tidesofthedream.setup.ModSetup;
@@ -80,6 +81,7 @@ public class TidesoftheDream {
 
             // register a new item here
             event.getRegistry().register(new BlockItem(ModBlocks.BLAZEWOOD, properties).setRegistryName("blazewood"));
+            event.getRegistry().register(new DreamFlute());
 
 
         }
