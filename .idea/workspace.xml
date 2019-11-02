@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6818e2b4-0262-4d67-be61-1a178f24aed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tidesofthedream/loot_tables/blocks/blazewood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tidesofthedream/recipes/blazewood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ModSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
@@ -12,14 +10,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/common/blocks/Blazewood.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/common/blocks/Blazewood.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-10-26-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-10-26-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/TidesoftheDream.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/TidesoftheDream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/ClientProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/Iproxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/Iproxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/ServerProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pyrnapp/TidesoftheDream/setup/ServerProxy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -32,8 +26,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" afterDir="false" />
@@ -45,7 +37,11 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/common/blocks/Blazewood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/common/blocks/Blazewood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/TidesoftheDream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/TidesoftheDream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/Iproxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/Iproxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ServerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pyrnapp/tidesofthedream/setup/ServerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tidesofthedream/lang/en_us.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

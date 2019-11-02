@@ -1,3 +1,6 @@
 {
-  "block.tidesofthedream.blazewood": "Blazewood Planks"
+  "block.tidesofthedream.blazewood": "Blazewood Planks",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.tidesofthedream": "Tides of the Dream"
 }

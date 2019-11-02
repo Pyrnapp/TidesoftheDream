@@ -5,6 +5,7 @@ import com.pyrnapp.tidesofthedream.common.blocks.Blazewood;
 import com.pyrnapp.tidesofthedream.common.blocks.ModBlocks;
 import com.pyrnapp.tidesofthedream.setup.ClientProxy;
 import com.pyrnapp.tidesofthedream.setup.Iproxy;
+import com.pyrnapp.tidesofthedream.setup.ModSetup;
 import com.pyrnapp.tidesofthedream.setup.ServerProxy;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -31,6 +32,9 @@ public class TidesoftheDream {
     //Proxy. Still don't understand it.
     public static Iproxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
+    //Mod setup class
+    public static ModSetup setup = new ModSetup();
+
     public static final Logger LOGGER = LogManager.getLogger(MODID);
 
     public TidesoftheDream(){
@@ -43,6 +47,8 @@ public class TidesoftheDream {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
+        setup.init();
+        proxy.init();
         LOGGER.info("HELLO FROM PREINIT");
 
     }
@@ -68,8 +74,12 @@ public class TidesoftheDream {
             //Print to console for modloading confirmation
             LOGGER.info("Tides of the Dream begin item loading");
 
+            //Creating group for Creative
+            Item.Properties properties = new Item.Properties()
+                    .group(setup.itemGroup);
+
             // register a new item here
-            event.getRegistry().register(new BlockItem(ModBlocks.BLAZEWOOD, new Item.Properties()).setRegistryName("blazewood"));
+            event.getRegistry().register(new BlockItem(ModBlocks.BLAZEWOOD, properties).setRegistryName("blazewood"));
 
 
         }
