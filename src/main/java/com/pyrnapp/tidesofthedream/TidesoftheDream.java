@@ -1,8 +1,10 @@
 package com.pyrnapp.tidesofthedream;
 
 //Imports
-import com.pyrnapp.tidesofthedream.common.blocks.Blazewood;
+import com.pyrnapp.tidesofthedream.common.blocks.DreamLily;
+import com.pyrnapp.tidesofthedream.common.blocks.Dreamtile;
 import com.pyrnapp.tidesofthedream.common.blocks.ModBlocks;
+import com.pyrnapp.tidesofthedream.common.blocks.TileSlurry;
 import com.pyrnapp.tidesofthedream.common.items.DreamFlute;
 import com.pyrnapp.tidesofthedream.setup.ClientProxy;
 import com.pyrnapp.tidesofthedream.setup.Iproxy;
@@ -65,7 +67,9 @@ public class TidesoftheDream {
             LOGGER.info("Tides of the Dream begin block loading");
 
             // register a new block here
-            event.getRegistry().register(new Blazewood());
+            event.getRegistry().register(new Dreamtile());
+            event.getRegistry().register(new TileSlurry());
+            event.getRegistry().register(new DreamLily());
 
 
         }
@@ -80,7 +84,9 @@ public class TidesoftheDream {
                     .group(setup.itemGroup);
 
             // register a new item here
-            event.getRegistry().register(new BlockItem(ModBlocks.BLAZEWOOD, properties).setRegistryName("blazewood"));
+            event.getRegistry().register(new BlockItem(ModBlocks.DREAMTILE, properties).setRegistryName("dreamtile"));
+            event.getRegistry().register(new BlockItem(ModBlocks.TILESLURRY, properties).setRegistryName("tileslurry"));
+            event.getRegistry().register(new BlockItem(ModBlocks.DREAMLILY, properties).setRegistryName("dreamlily"));
             event.getRegistry().register(new DreamFlute());
 
 

@@ -1,6 +1,8 @@
 {
-  "block.tidesofthedream.blazewood": "Blazewood Planks",
+  "block.tidesofthedream.dreamtile": "Dream Tile",
+  "block.tidesofthedream.tileslurry": "Acrid Soil",
   "item.tidesofthedream.dreamflute": "Flute of the Dream",
+  "block.tidesofthedream.dreamlily": "Ethereal Lily",
 
   "_comment": "Creative Tabs",
   "itemGroup.tidesofthedream": "Tides of the Dream"

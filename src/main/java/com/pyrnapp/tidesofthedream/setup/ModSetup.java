@@ -9,7 +9,7 @@ public class ModSetup {
     public ItemGroup itemGroup = new ItemGroup("tidesofthedream"){
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.BLAZEWOOD);
+            return new ItemStack(ModBlocks.DREAMTILE);
         }
     };
 
